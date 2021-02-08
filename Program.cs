@@ -16,26 +16,21 @@ namespace Multitree
                     new Node
                     {
                         Item = 2,
-                        IsExpanded = true,
-                       
+                        IsExpanded = true, 
                     },
                     new Node
                     {
                         Item = 3,
-                        IsExpanded = true,
-                        
+                        IsExpanded = true, 
                     },
                     new Node
                     {
                         Item = 4,
                         IsExpanded = true,
-                        
                     }
                 },
                 Item = 1,
                 IsExpanded = true,
-  
-
             };
 
             root.Children[0].Children.Add(
@@ -43,23 +38,20 @@ namespace Multitree
                 {
                     Item = 5,
                     IsExpanded = false,
-                  
                 });
 
             root.Children[0].Children.Add(
                 new Node
                 {
                     Item = 6,
-                    IsExpanded = false,
-                  
+                    IsExpanded = false, 
                 });
 
             root.Children[1].Children.Add(
                 new Node
                 {
                     Item = 7,
-                    IsExpanded = false,
-                   
+                    IsExpanded = false, 
                 });
 
             root.Children[2].Children.Add(
@@ -67,7 +59,6 @@ namespace Multitree
                 {
                     Item = 8,
                     IsExpanded = false,
-                    
                 });
 
             return root;

@@ -19,16 +19,13 @@ namespace Multitree
         public SelectionState SelectionState { get; set; } = SelectionState.NotSelected;
 
         public Node()
-        {
-
-        }
+        {}
 
         public Node(int item, string data, bool isExpanded)
         {
             Item = item;
             NodeData = data;
             IsExpanded = isExpanded;
-
         }
 
         public override string ToString()
